@@ -1,0 +1,230 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+main{
+max-width: 370px;
+margin: 0 auto;
+}
+body{
+    background-color: #14092A;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+}
+header h1{
+    background-image: linear-gradient(#FF52AF, #9F53FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+section div .txt{
+color: #D1C0F1;
+text-align: center;
+font-size: 35px;
+}
+.nano{
+    display: flex;
+    flex-direction: column;
+ align-items:center ;
+ margin-top: 60px;
+}
+section .nano .txt .rtx{
+color: white;
+background-image:  linear-gradient(#FF52AF, #9F53FF);
+padding: 5px 10px;
+border-radius: 10px;
+margin-right: 5px;
+
+} 
+
+p{
+    color:#A094B8 ;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+button{
+    width: 170px;
+   height: 60px;
+   border: none;
+   border-radius: 30px;
+   background-image: linear-gradient(#FF52AF, #9F53FF);;
+   color: white;
+   font-size: 19px;
+   margin-top: 10px;
+   transition: all 1s;
+}
+button:hover{
+    transform: rotateY(360deg);
+}
+.info .disa{
+    color: #D1C0F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  font-weight: 400;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+img{
+    width: 100%;
+}
+.nano{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.jtx{
+    transition: all 2s;
+}
+.jtx:hover{
+    transform: scale(1.4);
+ color: #A094B8;
+}
+.target{
+    transition: all 2s;
+}
+.target:hover{
+    transform: scale(1.4);
+ color:#A094B8;
+ }
+ul{
+    display: none;
+}
+
+@media only screen and (min-width:900px){
+        main{
+            max-width: 1000px;
+        }
+        header div{
+            display: none;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            gap: 40px;
+            color: white;
+        }
+        header div .target{
+            display: flex;
+            align-items: center;
+        }
+        header ul .span{
+            background-image: linear-gradient(#FF52AF, #9F53FF);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+ section{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        }
+      img{
+        width: 400px;
+ margin-left: 50px;
+     }
+      .txt{
+   
+   font-size: 50px;
+      }
+      .rgb{
+        display: flex;
+        flex-direction: column;
+      }
+      .span{
+        position: relative;
+      }
+      .span::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 2px;
+        transition: 1s all ease-in-out;
+        margin-top: 23px;
+        background-image: linear-gradient(#FF52AF, #9F53FF);
+       
+      }
+      .span:hover::before{
+width: 47px;
+transition: 1s all ease-in-out;
+      }
+      .srt{
+        position: relative;
+      }
+      .srt::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 2px;
+        transition: 1s all ease-in-out;
+        margin-top: 23px;
+        background-image: linear-gradient(#FF52AF, #9F53FF);
+    }
+      .srt:hover::before{
+width: 53px;
+transition: 1s all ease-in-out;
+      }
+      .drgh{
+        position: relative;
+      }
+      .drgh::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 2px;
+        background-image: linear-gradient(#FF52AF, #9F53FF);
+        transition: 1s all ease-in-out;
+        margin-top: 23px;
+      }
+      .drgh:hover::before{
+width: 60px;
+transition: 1s all ease-in-out;
+      }
+      .lop{
+        position: relative;
+      }
+      .lop::before{
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 2px;
+        background-image: linear-gradient(#FF52AF, #9F53FF);
+        transition: 1s all ease-in-out;
+        margin-top: 23px;
+      }
+      .lop:hover::before{
+width: 50px;
+transition: 1s all ease-in-out;
+      }
+
+      li{
+transition: 1s all;
+      }
+      li:hover{
+        transform: scale(1.2);
+        color:#A094B8 ;
+      }
+    }
